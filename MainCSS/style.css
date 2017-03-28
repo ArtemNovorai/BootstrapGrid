@@ -1,0 +1,46 @@
+body {
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+.navbar {
+  background-color: rgba(91, 34, 101, 0.94);
+  margin: 20px;
+  
+}
+.navbar-default .navbar-brand {
+  color:gold;
+}
+.navbar-default .navbar-brand:hover {
+  color: rgb(240, 116, 178);
+}
+.navbar-default .navbar-nav>li>a {
+  color: rgba(235, 252, 255, 0.94);
+
+}
+.navbar-default .navbar-right>li>a {
+  padding-right: 40px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: hotpink;
+}
+.navbar-default .navbar-right>li>a:hover {
+  color: hotpink;
+}
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;
+  
+}
+.item{
+    background: rgba(149, 88, 149, 0.79);    
+    text-align: center;
+    height: 300px !important;
+  
+}
+.carousel{
+    margin-top: 70px;
+}
