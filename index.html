@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="MainCSS/style.css">
   </head>
   <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default ">
   <div class="navbar-header">
      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
       <span class="sr-only">Toggle navigation</span>
@@ -17,24 +17,26 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="#" class="navbar-brand">AUCTION</a>
+    <a href="#" class="navbar-brand">MAGAZINE</a>
   </div>
   <div class="collapse navbar-collapse" id="main-menu" >
     <ul class="nav navbar-nav">
       <li class="color"><a href="#">Главная </a></li>
       <li  class="color"><a href="#">Статьи</a></li>
+      <li  class="color"><a href="#">Blog</a></li>
       <li  class="color"><a href="#">Новости</a></li>
       <li  class="color"><a href="#">О нас</a></li>
     </ul>
         <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Войти</a></li>
-    </ul>
-  </div>
+            <li class="padd"><a href="#">Войти</a></li>
+            <li><a href="#">Регистрация</a></li>
+          </ul>
+       </div> 
   </nav>
+    <div class="clearfix"></div>
     <!-- Карусель -->
 <div id="myCarousel" class="carousel slide">
-  <!-- Индикаторы для карусели -->
-  <ol class="carousel-indicators">
+    <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
        <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -49,16 +51,16 @@
       </div>
     </div>
      <div class="item">
-      <h2>Slide 2</h2>
+      <h2>MashenKa</h2>
       <div class="carousel-caption">
-        <h3>Second slide label</h3>
-        <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+        <h3>Сеть брендовой адежды</h3>
+        <p>Здесь вы можите купить купить качественную одежду для всей семьи!Действует лояльная карта.</p>
       </div>
     </div>
     <div class="item">
-      <h2>Slide 3</h2>
+      <h2>Bootstrap</h2>
       <div class="carousel-caption">
-        <h3>Third slide label</h3>
+        <h3>Gryd System</h3>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </div>
     </div>
@@ -70,13 +72,36 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
+  <!-- About Us -->
+   <div id="main">
+  <div class="row" style="text-align:center;">
+       <h2>О нас</h2>
+        <p class="lead">Нас читаешь, никогда не прогадаешь!</p>
+    <hr />
+    <div class="col-md-4">
+      <img src="img/images%20(1).jpg">
+      <h3></h3>
+      <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+    </div>
+    <div class="col-md-4">
+      <img src="img/300.png">
+      <h3>Рознообразие котегорий</h3>
+      <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+    </div>
+    <div class="col-md-4">
+      <img src="img/images.jpg">
+      <h3>Игры, розвличения, конкурсы</h3>
+      <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+    </div>
+  </div>
+</div>
     
 
    
    
    
    
-   
+    
     <!-- 2. Подключаем библиотеку jQuery, необходимую для работы скриптов Bootstrap 3 -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <!-- 3. Подключаем скомпилированный и минимизированный файл JavaScript платформы Bootstrap 3 -->

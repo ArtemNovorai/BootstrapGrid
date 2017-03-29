@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(91, 34, 101, 0.94);
+  background-color: rgba(34, 26, 36, 0.94);
   margin: 20px;
   
 }
@@ -12,20 +12,20 @@ body {
   color:gold;
 }
 .navbar-default .navbar-brand:hover {
-  color: rgb(240, 116, 178);
+  color: rgb(250, 207, 109);
 }
 .navbar-default .navbar-nav>li>a {
-  color: rgba(235, 252, 255, 0.94);
+  color: rgba(245, 200, 138, 0.94);
 
 }
 .navbar-default .navbar-right>li>a {
-  padding-right: 40px;
+  padding-right: 30px;
 }
 .navbar-default .navbar-nav>li>a:hover {
-  color: hotpink;
+  color: #3a3ad8;
 }
 .navbar-default .navbar-right>li>a:hover {
-  color: hotpink;
+  color: #3a3ad8;
 }
 h2{
     margin: 0;     
@@ -36,7 +36,7 @@ h2{
   
 }
 .item{
-    background: rgba(149, 88, 149, 0.79);    
+    background: #03bbff;    
     text-align: center;
     height: 300px !important;
   
@@ -44,3 +44,26 @@ h2{
 .carousel{
     margin-top: 70px;
 }
+
+h2 {
+  color: #5bacc4;
+}
+h3 {
+  color: #220c83;
+}
+p {
+  color: #150214;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
