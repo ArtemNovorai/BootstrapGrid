@@ -1,11 +1,10 @@
 body {
-   margin-right: 20px;
-   margin-left: 20px;
+   margin: 20px 20px 0 20px;
 }
 
 .navbar {
   background-color: rgba(34, 26, 36, 0.94);
-  margin: 20px;
+  
   
 }
 .navbar-default .navbar-brand {
@@ -28,7 +27,7 @@ body {
   color: #3a3ad8;
 }
 h2{
-    margin: 0;     
+    margin-top: 0px;     
     color: #666;
     padding-top: 90px;
     font-size: 52px;
@@ -36,17 +35,16 @@ h2{
   
 }
 .item{
-    background: #03bbff;    
+   
     text-align: center;
-    height: 300px !important;
+    height: 450px !important;
+     
   
 }
-.carousel{
-    margin-top: 70px;
-}
+
 
 h2 {
-  color: #5bacc4;
+  color: #25c32b;
 }
 h3 {
   color: #220c83;
