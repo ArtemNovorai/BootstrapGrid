@@ -37,11 +37,13 @@ h2{
 .item{
    
     text-align: center;
-    height: 450px !important;
-     
-  
+    height: 350px !important;
 }
-
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
 
 h2 {
   color: #25c32b;
