@@ -35,13 +35,11 @@ h2{
   
 }
 .item{
-    display: flex;  
-    justify-content: center;  
-    align-items: flex-start;
+   max-width: 100%;
     text-align: center;
-    height: 350px !important;
+    max-height: 450px;
 }
-img {
+ {
   
 }
 
