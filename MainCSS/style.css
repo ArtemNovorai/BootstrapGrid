@@ -53,7 +53,7 @@ h2{
   
 }
 h2{
-  color: #f23972;
+  color: #ff9c48;
 }
 h3 {
   color: #f23972;
@@ -80,13 +80,17 @@ p {
   border-radius: 3px;
 }
 .list1_img {
-  float:left; 
-  width: 36%
+  float:right; 
+  width: 36%;
 }
 .list1_desc {
   float:left; 
   width:61%;
   margin-left:1em;
+}
+.list1_img1 {
+  float:left; 
+  width: 36%;
 }
 
 
