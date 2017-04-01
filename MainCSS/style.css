@@ -29,9 +29,10 @@ body {
 h2{
     margin-top: 0px;     
     color: #666;
-    padding-top: 90px;
+    padding-top: 50px;
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;
+    
   
 }
 .item{
@@ -48,7 +49,7 @@ h2{
 }
 .row{
   margin: 0 1px;
-  background-color: #252231
+  background-color: #f4f4f4;
   
 }
 h2{
@@ -58,7 +59,34 @@ h3 {
   color: #f23972;
 }
 p {
-  color: #20ffcc;
+  color: #000000;
+}
+#main {
+  margin-top: 20px;
+}
+/* Metoda */
+
+.row_matod {
+  text-align:center;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
+.block {
+  list-style:none;
+  margin:15px; 
+  padding:10px; 
+  box-shadow:0 0 5px #aaa;
+  background: #FFF; 
+  border-radius: 3px;
+}
+.list1_img {
+  float:left; 
+  width: 36%
+}
+.list1_desc {
+  float:left; 
+  width:61%;
+  margin-left:1em;
 }
 
 
