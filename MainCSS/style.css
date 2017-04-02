@@ -92,6 +92,19 @@ p {
   float:left; 
   width: 36%;
 }
+.reservd {
+  text-align:right;
+  background:#2a2a2a; 
+  padding:1em; 
+  color: #fff;
+}
+.social_icon li {
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+  padding-top: 35px
+}
+
 
 
 
