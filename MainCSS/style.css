@@ -37,12 +37,12 @@ h2{
 }
 .item{
    max-width: 100%;
-    text-align: center;
-    max-height: 450px;
-}
- {
+   text-align: center;
+   max-height: 450px;
+   
   
 }
+.myCarousel
 
 .h2_carusel {
   color: #ffffff;
@@ -101,18 +101,19 @@ p {
 .well li {
   display: inline-block;
   text-decoration: none;
-  background-color:  rgba(34, 26, 36, 0.94);;
+  background-color:  rgba(34, 26, 36, 0.94);
   
   
 
 }
 #footer {
-  background-color:  rgba(34, 26, 36, 0.94);
+  background:  white;
   margin: -10px 15px 0;
+  
 }
-.menu-footer,.well, .row{
+.menu-footer, .row, .copyrights, .well, .social-icons{
   background:  rgba(34, 26, 36, 0.94); ;
-  color: whitesmoke;
+  color: #dd8f41;
   border: none;
 }
 .upper {
