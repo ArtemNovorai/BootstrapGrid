@@ -94,23 +94,29 @@ p {
 }
 .reservd {
   text-align:right;
-  background:#2a2a2a; 
+  background:  rgba(34, 26, 36, 0.94);; 
   padding:1em; 
   color: #fff;
 }
 .well li {
   display: inline-block;
   text-decoration: none;
+  background-color:  rgba(34, 26, 36, 0.94);;
+  
+  
 
 }
 #footer {
-  background-color: #2a2a2a;
-  margin-top: -10px;
+  background-color:  rgba(34, 26, 36, 0.94);
+  margin: -10px 15px 0;
 }
-.menu-footer,.well, .row {
-  background:#2a2a2a ;
+.menu-footer,.well, .row{
+  background:  rgba(34, 26, 36, 0.94); ;
   color: whitesmoke;
   border: none;
+}
+.upper {
+  color: #76dd5e;
 }
 
 
