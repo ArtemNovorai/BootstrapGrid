@@ -37,12 +37,12 @@ h2{
 }
 .item{
    max-width: 100%;
-   text-align: center;
-   max-height: 450px;
-   
+    text-align: center;
+    max-height: 450px;
+}
+ {
   
 }
-.myCarousel
 
 .h2_carusel {
   color: #ffffff;
@@ -66,70 +66,77 @@ p {
 }
 /* Metoda */
 
-.row_matod {
-  text-align:center;
-  background-color: #f4f4f4;
-  margin-top: 20px;
+
 }
-.block {
-  list-style:none;
-  margin:15px; 
-  padding:10px; 
-  box-shadow:0 0 5px #aaa;
-  background: #FFF; 
-  border-radius: 3px;
-}
-.list1_img {
-  float:right; 
-  width: 36%;
-}
-.list1_desc {
-  float:left; 
-  width:61%;
-  margin-left:1em;
-}
-.list1_img1 {
-  float:left; 
-  width: 36%;
+
 }
 .reservd {
   text-align:right;
-  background:  rgba(34, 26, 36, 0.94);; 
+  background:  red;
   padding:1em; 
   color: #fff;
-}
-.well li {
+}.well li {
   display: inline-block;
   text-decoration: none;
-  background-color:  rgba(34, 26, 36, 0.94);
   
   
 
 }
 #footer {
-  background:  white;
+  background-color: black;
   margin: -10px 15px 0;
-  
+  color: aliceblue;
 }
-.menu-footer, .row, .copyrights, .well, .social-icons{
-  background:  rgba(34, 26, 36, 0.94); ;
-  color: #dd8f41;
+.well {
+  background: black;
   border: none;
 }
 .upper {
   color: #76dd5e;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.lib-panel {
+  margin-bottom: 20px;
+  padding: 0 20px 0 20px;
+}
+.lib-panel img {
+  width: 100%;
+  background-color: transparent;
+}
+.lib-panel .row,
+.lib-panel .col-md-6 {
+  padding: 0;
+  background-color: #FFFFFF;
+}
+.lib-panel .lib-row {
+  padding: 0 20px 0 20px;
+}
+.lib-panel .lib-row.lib-header {
+  background-color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px 20px 0 20px;
+}
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+  height: 2px;
+  width: 26px;
+  background-color: #d9d9d9;
+  margin: 7px 0 7px 0;
+}
+.lib-panel .lib-row.lib-desc {
+  position: relative;
+  display: block;
+  font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 20px;
+}
+.row-margin-bottom {
+  margin-bottom: 20px;
+}
+.box-shadow {
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
