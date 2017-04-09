@@ -83,12 +83,12 @@ p {
 
 }
 #footer {
-  background-color: black;
+  background-color: #1c1818;
   margin: -10px 15px 0;
   color: aliceblue;
 }
 .well {
-  background: black;
+  background: #1c1818;
   border: none;
 }
 .upper {
