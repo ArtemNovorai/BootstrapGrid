@@ -3,18 +3,20 @@ body {
 }
 
 .navbar {
-  background-color: rgba(34, 26, 36, 0.94);
-  
-  
+  background-color:white;
+  border: none;
+  font-size: 18px; 
+  font-family:fantasy;
 }
 .navbar-default .navbar-brand {
   color:gold;
+  font-size: 25px;
 }
 .navbar-default .navbar-brand:hover {
   color: rgb(250, 207, 109);
 }
 .navbar-default .navbar-nav>li>a {
-  color: rgba(245, 200, 138, 0.94);
+  color: black;
 
 }
 .navbar-default .navbar-right>li>a {
