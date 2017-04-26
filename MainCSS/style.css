@@ -16,7 +16,7 @@ body {
   color: rgb(250, 207, 109);
 }
 .navbar-default .navbar-nav>li>a {
-  color: black;
+  color: #1c1818;
 
 }
 .navbar-default .navbar-right>li>a {
@@ -54,7 +54,7 @@ h2{
   
 }
 h2{
-  color: #ff9c48;
+  color: #f21157;
 }
 h3 {
   color: #f23972;
@@ -138,3 +138,5 @@ p {
   -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
   box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
 }
+
+.
