@@ -1,117 +1,121 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Basic Bootstrap Template</title>      
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="MainCSS/style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-default ">
-  <div class="navbar-header">
-     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Bootstrap Template</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="MainCSS/style.css">
+</head>
+
+<body>
+ 
+ <!-- Navigation menu -->
+  <nav class="navbar navbar-default ">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="#" class="navbar-brand">KING-GYM</a>
-  </div>
-  <div class="collapse navbar-collapse" id="main-menu" >
-    <ul class="nav navbar-nav">
-      <li class="color"><a href="#">Главная </a></li>
-            <li  class="color"><a href="#">Blog</a></li>
-      <li  class="color"><a href="#">Новости</a></li>
-  <li class="dropdown">
-    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Помощь <b class="caret"></b></a>
-    <ul class="dropdown-menu">
-      <li><a href="#">Техподдержка</a></li>
-      <li><a href="#">Консультант</a></li>
-      <li><a href="#">Другое</a></li>
-    </ul>
-  </li>
-    </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="padd"><a href="#">Войти</a></li>
-            <li><a href="#">Регистрация</a></li>
+      <a href="#" class="navbar-brand">KING-GYM</a>
+    </div>
+    <div class="collapse navbar-collapse" id="main-menu">
+      <ul class="nav navbar-nav">
+        <li class="color"><a href="#">Главная </a></li>
+        <li class="color"><a href="#">Blog</a></li>
+        <li class="color"><a href="#">Новости</a></li>
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Помощь <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Техподдержка</a></li>
+            <li><a href="#">Консультант</a></li>
+            <li><a href="#">Другое</a></li>
           </ul>
-       </div> 
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="padd"><a href="#">Войти</a></li>
+        <li><a href="#">Регистрация</a></li>
+      </ul>
+    </div>
   </nav>
-    
-    <!-- Карусель -->
-<div id="myCarousel" class="carousel slide">
+
+  <!-- Carusel -->
+  <div id="myCarousel" class="carousel slide">
     <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-       <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>   
-   <div class="carousel-inner">
-        <div class="active item">
-         <img src="img/Vanessa.jpg" alt="2 слайд" class="img-responsive">
-         <div class="carousel-caption">
-         <h2 class="h2_carusel">I love GYM</h2>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
-       </div>
-     <div class="item">
-     <img src="img/Fitness.jpg" alt="2 слайд" class="img-responsive">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="active item">
+        <img src="img/Vanessa.jpg" alt="2 слайд" class="img-responsive">
         <div class="carousel-caption">
-        <h2 class="h2_carusel">Fitnes My Life</h2>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h2 class="h2_carusel">I love GYM</h2>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
       </div>
-         </div>
-    <div class="item">
-    <img src="img/Riana.jpg" alt="2 слайд" class="img-responsive" >
+      <div class="item">
+        <img src="img/Fitness.jpg" alt="2 слайд" class="img-responsive">
         <div class="carousel-caption">
-        <h2 class="h2_carusel">Yoga Time</h2>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h2 class="h2_carusel">Fitnes My Life</h2>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
       </div>
-         </div>
-  </div>
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+      <div class="item">
+        <img src="img/Riana.jpg" alt="2 слайд" class="img-responsive">
+        <div class="carousel-caption">
+          <h2 class="h2_carusel">Yoga Time</h2>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
-</div>
+  </div>
   <!-- Main Info -->
-   <div id="main">
-  <div class="row1">
-       <h2>Услуги</h2>
-        <p class="lead">Красивое тело, чистый разум, спокойное серце</p>
-    <hr />
-    <div class="col-md-4">
-      <img src="img/777.jpg" class="img-circle">
-      <h3>Йога</h3>
-      <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
-    </div>
-    <div class="col-md-4">
-      <img src="img/9896.jpg" class="img-circle">
-      <h3>Фитнес</h3>
-      <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
-    </div>
-    <div class="col-md-4">
-      <img src="img/989.jpg" class="img-circle">
-      <h3>Трипси</h3>
-      <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+  <div id="main">
+    <div class="row1">
+      <h2>Услуги</h2>
+      <p class="lead">Красивое тело, чистый разум, спокойное серце</p>
+      <hr />
+      <div class="col-md-4">
+        <img src="img/777.jpg" class="img-circle">
+        <h3>Йога</h3>
+        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/9896.jpg" class="img-circle">
+        <h3>Фитнес</h3>
+        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/989.jpg" class="img-circle">
+        <h3>Трипси</h3>
+        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+      </div>
     </div>
   </div>
-</div>
-    <!-- Metoda -->
-    
-    <div id="method"> 
+  <!-- Metoda -->
+
+  <div id="method">
     <div class="row1">
       <h2>Новости</h2>
-    <p class="lead">Наш метод шаг за шагом (как мы это делаем)</p>
+      <p class="lead">Наш метод шаг за шагом (как мы это делаем)</p>
     </div>
-    </div>
-    <hr />
+  </div>
+  <hr />
   <div class="row row-margin-bottom">
     <div class="col-md-6">
       <div class="lib-panel">
@@ -127,8 +131,8 @@
             <div class="lib-row lib-desc">
               <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 11.01.2017</p>
               <p>Какую же пищу всё таки надо кушать зимой, когда нет овощей, и оставаться в форме?</p><br/>
-                          <a href="http://www.citrus.ua/shares/437010/">Подробнее</a>
-                         </div>
+              <a href="http://www.citrus.ua/shares/437010/">Подробнее</a>
+            </div>
           </div>
         </div>
       </div>
@@ -141,13 +145,13 @@
           </div>
           <div class="col-md-6">
             <div class="lib-row lib-header">
-             <h3>Тренер</h3>
+              <h3>Тренер</h3>
               <div class="lib-header-seperator"></div>
             </div>
             <div class="lib-row lib-desc">
               <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 15.04.2017</p>
               <p>Давайте друзья обсудим, очень важную тему, такую как тренер. Нужен ли нам тренер в зале? Или нам хватит программ и советов c интернета, для того чтобы иметь красивое тело?</p><br/>
-                <a href="http://www.citrus.ua/shares/437010/">Подробнее</a>
+              <a href="http://www.citrus.ua/shares/437010/">Подробнее</a>
             </div>
           </div>
         </div>
@@ -167,10 +171,10 @@
             </div>
             <div class="lib-row lib-desc">
               <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 13.06.2015</p>
-              <p>Стильный гаджет, который облегчит вам жизнь. Он считет шаги, сколько  вы спалили калорий. Есть прийом сообщений, и будильник. Даже если телефон сел, то браслет всё равно вас разбудет!</p><br/>
+              <p>Стильный гаджет, который облегчит вам жизнь. Он считет шаги, сколько вы спалили калорий. Есть прийом сообщений, и будильник. Даже если телефон сел, то браслет всё равно вас разбудет!</p><br/>
               <a href="http://www.citrus.ua/shares/437010/">Подробнее</a>
 
-              
+
             </div>
           </div>
         </div>
@@ -190,7 +194,7 @@
             <div class="lib-row lib-desc">
               <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 15.07.2015</p>
               <p>Новая лицензионная фитнес-программа на батуте. Объеденение кардио и силовой нагрузки. Занятия помогаю похудеть, улучшения выдержки и самочувствия, положительно влияет на сердечно-сосудистую систему.</p><br/>
-               <a href="http://www.citrus.ua/shares/437010/">Подробнее</a>
+              <a href="http://www.citrus.ua/shares/437010/">Подробнее</a>
             </div>
           </div>
         </div>
@@ -199,54 +203,65 @@
   </div>
 
 
-  <!-- FOOTER -->  
-   <div id="footer">
-        <div class="footer-top row">
-          <div class="menu-footer col-sm-6 col-md-4"><div class="well"><h4 class="upper"><img src="img/telephone_call_contact.png" alt="">Контакты</h4><br>(093) 811 99 02, (066) 241 99 06<br>ул.Патона, 67 Львов Украина<br>king-gym@gmail.com</div></div>
-          <div class="menu-footer col-sm-6 col-md-4"><div class="well"><h4 class="upper"><img src="img/clock_time.png" alt="image">Время работы<br></h4>Понедельник-Суббота&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09.00 - 22.00<br>Воскресенье&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09.00 - 21.00</div></div>
-            <div class="menu-footer col-sm-6 col-md-4"><div class="well"><h4 class="upper"><img src="img/Black_Email1.png" alt="">Последние сообщения</h4><br>ЭКСПРЕС ПРОГРАММА "ТРАНСФОРМАЦИЯ" - 2 месяца и ты в форме!!!"</div></div>
-                    </div>
-        <div class="footer-bottom row">
-            <div class="copyrights col-sm-6 col-md-6"><div class="well">&copy; Copyrights evolution.in.ua.<br>Все права защищены. Разроботка сайта by Novorai A.O. </div></div>
-            <div class="social-icons col-sm-6 col-md-6"><div class="well"> <ul>
-               <li>
-                <a href="https://www.facebook.com/"><img alt="image" src="img/22.png" ></a>
-                </li>
-                
-                  <li>
-                  <a href="https://vk.com/novoray89"><img alt="image" src="img/2221.png" ></a>
-                </li>
-                   <li>
-                     <a href="https://twitter.com"><img alt="image" src="img/111.png"></a>
-                   </li>
-                    <li>
-                  <a href="#"><img alt="image" src="img/2561.png" ></a>
-                    </li>
-                    <li>
-                <a href="https://www.youtube.com"><img alt="image" src="img/222.png" ></a>
-                    </li>
-                      <li>
-                        <a href="#"><img alt="image" src="img/2521.png"></a>
-                      </li>
-                       
-                        </ul><br></div></div>
+  <!-- FOOTER -->
+  <div id="footer">
+    <div class="footer-top row">
+      <div class="menu-footer col-sm-6 col-md-4">
+        <div class="well">
+          <h4 class="upper"><img src="img/telephone_call_contact.png" alt="">Контакты</h4><br>(093) 811 99 02, (066) 241 99 06<br>ул.Патона, 67 Львов Украина<br>king-gym@gmail.com</div>
+      </div>
+      <div class="menu-footer col-sm-6 col-md-4">
+        <div class="well">
+          <h4 class="upper"><img src="img/clock_time.png" alt="image">Время работы<br></h4>Понедельник-Суббота&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09.00 - 22.00<br>Воскресенье&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09.00 - 21.00</div>
+      </div>
+      <div class="menu-footer col-sm-6 col-md-4">
+        <div class="well">
+          <h4 class="upper"><img src="img/Black_Email1.png" alt="">Последние сообщения</h4><br>ЭКСПРЕС ПРОГРАММА "ТРАНСФОРМАЦИЯ" - 2 месяца и ты в форме!!!"</div>
+      </div>
     </div>
-</div>
+    <div class="footer-bottom row">
+      <div class="copyrights col-sm-6 col-md-6">
+        <div class="well">&copy; Copyrights evolution.in.ua.<br>Все права защищены. Разроботка сайта by Novorai A.O. </div>
+      </div>
+      <div class="social-icons col-sm-6 col-md-6">
+        <div class="well">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/"><img alt="image" src="img/22.png" ></a>
+            </li>
 
- 
-   
-   
-    
-    <!-- 2. Подключаем библиотеку jQuery, необходимую для работы скриптов Bootstrap 3 -->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <!-- 3. Подключаем скомпилированный и минимизированный файл JavaScript платформы Bootstrap 3 -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Дополнительный сценарий на языке JavaScript, предназначенный для инициализации компонента Bootstrap "Popovers" -->
-    <script>
-      $(function () {
-        $('[data-toggle="popover"]').popover()
-      })
-    </script>
-    
+            <li>
+              <a href="https://vk.com/novoray89"><img alt="image" src="img/2221.png" ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com"><img alt="image" src="img/111.png"></a>
+            </li>
+            <li>
+              <a href="#"><img alt="image" src="img/2561.png" ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com"><img alt="image" src="img/222.png" ></a>
+            </li>
+            <li>
+              <a href="#"><img alt="image" src="img/2521.png"></a>
+            </li>
+
+          </ul><br></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 2. Подключаем библиотеку jQuery, необходимую для работы скриптов Bootstrap 3 -->
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <!-- 3. Подключаем скомпилированный и минимизированный файл JavaScript платформы Bootstrap 3 -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Дополнительный сценарий на языке JavaScript, предназначенный для инициализации компонента Bootstrap "Popovers" -->
+  <script>
+    $(function() {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+
 </body>
+
 </html>
